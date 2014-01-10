@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6C8915187F974A00D9E81C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C8914187F974A00D9E81C /* Cocoa.framework */; };
+		CD6C891F187F974A00D9E81C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6C891D187F974A00D9E81C /* InfoPlist.strings */; };
+		CD6C8921187F974A00D9E81C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C8920187F974A00D9E81C /* main.m */; };
+		CD6C8925187F974A00D9E81C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD6C8923187F974A00D9E81C /* Credits.rtf */; };
+		CD6C8928187F974A00D9E81C /* FAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6C8927187F974A00D9E81C /* FAAppDelegate.m */; };
+		CD6C892B187F974A00D9E81C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6C8929187F974A00D9E81C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD6C8911187F974A00D9E81C /* Monchan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monchan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C8914187F974A00D9E81C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD6C8917187F974A00D9E81C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD6C8918187F974A00D9E81C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD6C8919187F974A00D9E81C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD6C891C187F974A00D9E81C /* Monchan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monchan-Info.plist"; sourceTree = "<group>"; };
+		CD6C891E187F974A00D9E81C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6C8920187F974A00D9E81C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6C8922187F974A00D9E81C /* Monchan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monchan-Prefix.pch"; sourceTree = "<group>"; };
+		CD6C8924187F974A00D9E81C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD6C8926187F974A00D9E81C /* FAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAAppDelegate.h; sourceTree = "<group>"; };
+		CD6C8927187F974A00D9E81C /* FAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAAppDelegate.m; sourceTree = "<group>"; };
+		CD6C892A187F974A00D9E81C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6C890E187F974A00D9E81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C8915187F974A00D9E81C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6C8908187F974A00D9E81C = {
+			isa = PBXGroup;
+			children = (
+				CD6C891A187F974A00D9E81C /* Monchan */,
+				CD6C8913187F974A00D9E81C /* Frameworks */,
+				CD6C8912187F974A00D9E81C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6C8912187F974A00D9E81C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C8911187F974A00D9E81C /* Monchan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6C8913187F974A00D9E81C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C8914187F974A00D9E81C /* Cocoa.framework */,
+				CD6C8916187F974A00D9E81C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6C8916187F974A00D9E81C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C8917187F974A00D9E81C /* AppKit.framework */,
+				CD6C8918187F974A00D9E81C /* CoreData.framework */,
+				CD6C8919187F974A00D9E81C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD6C891A187F974A00D9E81C /* Monchan */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C8926187F974A00D9E81C /* FAAppDelegate.h */,
+				CD6C8927187F974A00D9E81C /* FAAppDelegate.m */,
+				CD6C8929187F974A00D9E81C /* MainMenu.xib */,
+				CD6C891B187F974A00D9E81C /* Supporting Files */,
+			);
+			path = Monchan;
+			sourceTree = "<group>";
+		};
+		CD6C891B187F974A00D9E81C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C891C187F974A00D9E81C /* Monchan-Info.plist */,
+				CD6C891D187F974A00D9E81C /* InfoPlist.strings */,
+				CD6C8920187F974A00D9E81C /* main.m */,
+				CD6C8922187F974A00D9E81C /* Monchan-Prefix.pch */,
+				CD6C8923187F974A00D9E81C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6C8910187F974A00D9E81C /* Monchan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C892E187F974A00D9E81C /* Build configuration list for PBXNativeTarget "Monchan" */;
+			buildPhases = (
+				CD6C890D187F974A00D9E81C /* Sources */,
+				CD6C890E187F974A00D9E81C /* Frameworks */,
+				CD6C890F187F974A00D9E81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monchan;
+			productName = Monchan;
+			productReference = CD6C8911187F974A00D9E81C /* Monchan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6C8909187F974A00D9E81C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = HW12A006;
+			};
+			buildConfigurationList = CD6C890C187F974A00D9E81C /* Build configuration list for PBXProject "Monchan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD6C8908187F974A00D9E81C;
+			productRefGroup = CD6C8912187F974A00D9E81C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6C8910187F974A00D9E81C /* Monchan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6C890F187F974A00D9E81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C891F187F974A00D9E81C /* InfoPlist.strings in Resources */,
+				CD6C8925187F974A00D9E81C /* Credits.rtf in Resources */,
+				CD6C892B187F974A00D9E81C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6C890D187F974A00D9E81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C8921187F974A00D9E81C /* main.m in Sources */,
+				CD6C8928187F974A00D9E81C /* FAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6C891D187F974A00D9E81C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C891E187F974A00D9E81C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD6C8923187F974A00D9E81C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C8924187F974A00D9E81C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD6C8929187F974A00D9E81C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C892A187F974A00D9E81C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6C892C187F974A00D9E81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD6C892D187F974A00D9E81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD6C892F187F974A00D9E81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monchan/Monchan-Prefix.pch";
+				INFOPLIST_FILE = "Monchan/Monchan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD6C8930187F974A00D9E81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Monchan/Monchan-Prefix.pch";
+				INFOPLIST_FILE = "Monchan/Monchan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6C890C187F974A00D9E81C /* Build configuration list for PBXProject "Monchan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C892C187F974A00D9E81C /* Debug */,
+				CD6C892D187F974A00D9E81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C892E187F974A00D9E81C /* Build configuration list for PBXNativeTarget "Monchan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C892F187F974A00D9E81C /* Debug */,
+				CD6C8930187F974A00D9E81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6C8909187F974A00D9E81C /* Project object */;
+}
